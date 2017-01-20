@@ -1,0 +1,7 @@
+Now check installation of  the speech server.
+See Makefile for instructions.
+See the NEWS file for a  summary of new features --control e cap n in Emacs
+See Emacspeak Customizations for customizations -- control e cap C in Emacs
+Use C-h p in Emacs for a package overview
+Make sure you read the Emacs info pages
+[
