@@ -1,0 +1,6 @@
+Directory:  /home/rill/blog/
+Branch:     master
+Head:       f5e6c0a659 - Added starting-again-with-emacs.txt to test adding and commiting in git.el
+
+     Uptodate     emacspeak-notes.txt
+
