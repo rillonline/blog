@@ -12,7 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
 <link rel="canonical" href="https://rillonline.github.io/blog/">
 <link rel="next" href="index-4.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2020/01/holy-name/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/my-writing-is-in-disarray/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -69,7 +69,41 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2020/01/holy-name/" class="u-url">january-1</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/my-writing-is-in-disarray/" class="u-url">My Writing is in Disarray</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Rill
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/my-writing-is-in-disarray/" rel="bookmark">
+            <time class="published dt-published" datetime="2021-08-02T13:20:29-05:00" itemprop="datePublished" title="2021-08-02 13:20">2021-08-02 13:20</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <div>
+<p>In some ways, the title says it all.</p>
+<p>I have started writing again and the question I asked myself is where I
+wanted to put what I wrote. I have a love/hate relationship with my
+<a class="reference external" href="https://rill.blog/">WordPress</a> blog. It is difficult to post there and I always want to
+keep a copy locally.</p>
+<p>My best bet is my <a class="reference external" href="posts/my-writing-is-in-disarray/rillonline.github.io/blog">github</a>, but it would not build under my new
+installation of <a class="reference external" href="https://getnikola.com/">Nikola</a>. It looks like I will have to edit every last
+post (because struggling with the <code class="docutils literal">conf.py</code> is more than I can handle
+at the moment.) Revisiting old posts is not a bad thing anyway.</p>
+<p>I have also started to revisit my Star Runner novels. I thought I would
+collect them all in one place along with my blog posts. You see, there
+is really method in my madness. Oh dear! I think there is one missing. I
+can’t even think of its name. I was not super impressed with it, but it
+did tell a story. I can probably recreate it if necessary.</p>
+<p>Several backup hard drives have crashed. Perhaps it was there. I have
+also discovered I have many copies of the same file and everything needs
+to be brought together in one place and cleaned up.</p>
+<p>I’m working in Linux on my ChromeBook which I really enjoy. I’m learning
+a lot about Emacs, too, and that’s fun.</p>
+<p>So as Babylon V says, "So it begins ..."</p>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2020/01/holy-name/" class="u-url">january-1</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Rill
@@ -756,140 +790,6 @@ Here is what I now have:</p>
 boost. I would have to go past everything I've already done.</p>
 </li>
 </ol>
-</div>
-</div>
-                </div>
-            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/recurring-tasks-in-orgmode/" class="u-url">Recurring Tasks in Orgmode</a></h1>
-                <div class="metadata">
-                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                        Rill
-                    </span></p>
-            <p class="dateline">
-            <a href="posts/2019/08/recurring-tasks-in-orgmode/" rel="bookmark">
-            <time class="published dt-published" datetime="2019-08-28T00:00:00-05:00" itemprop="datePublished" title="2019-08-28 00:00">2019-08-28 00:00</time></a>
-            </p>
-                </div>
-            </header><div class="e-content entry-content">
-                    <div>
-<p>Edited on 2019/09/01 to correct an error with tasks that needed to be
-re-scheduled differently in the future.</p>
-<div class="section" id="introduction">
-<h2>Introduction</h2>
-<p>I have been keeping a list of to-dos in a file called "organizer.org".
-(I'm not sure if it actually keeps me organized, but I like the idea
-of having a list of tasks, especially tasks I might forget about.) At
-the top level I have three headlines:</p>
-<ol class="arabic simple">
-<li><p>Tasks. These are the one off sorts of tasks that it would be
-labor-intensive to categorize.</p></li>
-<li><p>Website. This is where I put items related to maintaining my
-website (where you are most likely reading this article) and ideas
-for writing new articles.</p></li>
-<li><p>Writing. Separate from writing for my website, I list longer pieces
-here both fiction and non-fiction.</p></li>
-</ol>
-<p>My "init.el" file for Emacs has a line in it to display my weekly
-agenda view.</p>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">&lt;string&gt;</span>, line 23)</p>
-<p>Cannot find pygments lexer for language "example"</p>
-<pre class="literal-block">.. code:: example
-
-   (setq initial-buffer-choice 'org-agenda-list)
-</pre>
-</div>
-<p>This agenda view shows my diary for the week as well as any tasks with
-either a scheduled start date or end date, i.e., deadline.</p>
-</div>
-<div class="section" id="writing-a-good-to-do">
-<h2>Writing a Good To-do</h2>
-<p>A basic rule of thumb is to write a to-do that you can actually get
-done. It has to be specific enough so that you know when you've
-started it and when you can check it off your list, that is, mark it
-done. I had this to-do which is more an aspiration than a to-do.</p>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">&lt;string&gt;</span>, line 38)</p>
-<p>Cannot find pygments lexer for language "example"</p>
-<pre class="literal-block">.. code:: example
-
-   ** TODO Publish at least one blog post weekly to keep website fresh
-</pre>
-</div>
-<p>The intent is clear enough: one blog post to be completed every
-week.</p>
-<p>My mother kept a calendar on the kitchen wall. She was fussy about it.
-She wanted big blank blocks in which to write. She wrote everything
-down. She had codes for each of us. She often would say the item and
-the person's initials as she wrote.</p>
-<p>In my mother's calendar world, the blog post could be written in and
-even X'ed out when done and then been re-written on the next line of
-blocks for the month. She may have even just drawn a straight line
-through every Tuesday.</p>
-<p>I have several good to-dos already in my organizer file:</p>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">&lt;string&gt;</span>, line 57)</p>
-<p>Cannot find pygments lexer for language "example"</p>
-<pre class="literal-block">.. code:: example
-
-   ** TODO Pay rent
-      DEADLINE: &lt;2019-09-01 Sun +1m&gt;
-   ** TODO Give Nick his heart worm pill
-      DEADLINE: &lt;2019-09-13 Fri +1m&gt;
-</pre>
-</div>
-<p>These tasks can be marked as done. Org will advance the date
-by one month and they will again appear in my weekly agenda view. The
-day of the week will change, but not the day of the month.</p>
-</div>
-<div class="section" id="an-interim-solution">
-<h2>An Interim Solution</h2>
-<p>I started marking my website refresh to-do as done when I wrote and
-posted a new article. After marking it done and recording the name of
-the article in the comments, I marked the to-do as "TODO" to start the
-process all over again. This seems quite unappealing to me.</p>
-</div>
-<div class="section" id="a-better-solution">
-<h2>A Better Solution</h2>
-<p>In reading through
-<a class="reference external" href="https://orgmode.org/manual/Repeated-tasks.html">Repeated Tasks</a> I realized that my article writing to-do is not like
-paying rent or giving Nick his pill. If I do not write a blog article
-on a given week, I don't need to catch up. I can pick up at any time
-and start posting on a regular basis. It is clear looking through my
-archives and at other people's blogs this is what happens all the
-time. I am writing these articles because I want to write them. I
-don't need to write them. I enjoy posting and then marking my success
-by calling this to-do done. In the days of paper and pen, people
-enjoyed drawing a line through an item on a list. (Never using this
-medium, I was always jealous of their satisfaction. People wrote
-noisily and with a flourish.)</p>
-<p>I now find out Org has a solution for my task.</p>
-</div>
-<div class="section" id="my-new-to-do">
-<h2>My New To-do</h2>
-<p>Here is what I came up with for my article writing to-do.</p>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">&lt;string&gt;</span>, line 99)</p>
-<p>Cannot find pygments lexer for language "example"</p>
-<pre class="literal-block">.. code:: example
-
-   ** TODO Publish at least one blog post weekly to keep website fresh
-      DEADLINE: &lt;2019-08-27 Tue .+3d&gt;
-</pre>
-</div>
-<p>This suggests I have a 3 day deadline for writing a weekly article.
-No, I haven't lost my mind. If I am writing regularly, I will write
-more than one blog post a week and I want to honor that, but my
-general goal is to be sure I write at least one post every week.</p>
-<p>When I mark this task as done, three days will be added to the deadline. If the
-deadline is in the past, another three days will be added until the deadline
-is in the future. In this way, the three-day deadline may also move
-throughout the week. For example, if I complete this task today,
-Tuesday, it will have a deadline of Friday. If I don't complete
-it until Monday, it will then have a deadline of the following
-Thursday, almost two weeks after its original deadline.</p>
-<p>If you want this task to always be due on a Tuesday,for example, use
-"++"(plus plus) instead
-of ".+" (dot plus.)</p>
 </div>
 </div>
                 </div>

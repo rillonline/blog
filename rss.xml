@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Blog</title><link>https://rillonline.github.io/blog/</link><description>Thoughts</description><atom:link href="https://rillonline.github.io/blog/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2021 &lt;a href="mailto:@rillonline"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Mon, 02 Aug 2021 01:11:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>january-1</title><link>https://rillonline.github.io/blog/posts/2020/01/holy-name/</link><dc:creator>Rill</dc:creator><description>&lt;div&gt;&lt;p&gt;I read this webpage today. &lt;a class="reference external" href="http://lectionarypage.net/YearABC_RCL/Christmas/HolyName_RCL.html"&gt;Holy
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Blog</title><link>https://rillonline.github.io/blog/</link><description>Thoughts</description><atom:link href="https://rillonline.github.io/blog/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2021 &lt;a href="mailto:@rillonline"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Mon, 02 Aug 2021 20:09:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>My Writing is in Disarray</title><link>https://rillonline.github.io/blog/posts/my-writing-is-in-disarray/</link><dc:creator>Rill</dc:creator><description>&lt;div&gt;&lt;p&gt;In some ways, the title says it all.&lt;/p&gt;
+&lt;p&gt;I have started writing again and the question I asked myself is where I
+wanted to put what I wrote. I have a love/hate relationship with my
+&lt;a class="reference external" href="https://rill.blog/"&gt;WordPress&lt;/a&gt; blog. It is difficult to post there and I always want to
+keep a copy locally.&lt;/p&gt;
+&lt;p&gt;My best bet is my &lt;a class="reference external" href="https://rillonline.github.io/blog/posts/my-writing-is-in-disarray/rillonline.github.io/blog"&gt;github&lt;/a&gt;, but it would not build under my new
+installation of &lt;a class="reference external" href="https://getnikola.com/"&gt;Nikola&lt;/a&gt;. It looks like I will have to edit every last
+post (because struggling with the &lt;code class="docutils literal"&gt;conf.py&lt;/code&gt; is more than I can handle
+at the moment.) Revisiting old posts is not a bad thing anyway.&lt;/p&gt;
+&lt;p&gt;I have also started to revisit my Star Runner novels. I thought I would
+collect them all in one place along with my blog posts. You see, there
+is really method in my madness. Oh dear! I think there is one missing. I
+can’t even think of its name. I was not super impressed with it, but it
+did tell a story. I can probably recreate it if necessary.&lt;/p&gt;
+&lt;p&gt;Several backup hard drives have crashed. Perhaps it was there. I have
+also discovered I have many copies of the same file and everything needs
+to be brought together in one place and cleaned up.&lt;/p&gt;
+&lt;p&gt;I’m working in Linux on my ChromeBook which I really enjoy. I’m learning
+a lot about Emacs, too, and that’s fun.&lt;/p&gt;
+&lt;p&gt;So as Babylon V says, "So it begins ..."&lt;/p&gt;&lt;/div&gt;</description><guid>https://rillonline.github.io/blog/posts/my-writing-is-in-disarray/</guid><pubDate>Mon, 02 Aug 2021 18:20:29 GMT</pubDate></item><item><title>january-1</title><link>https://rillonline.github.io/blog/posts/2020/01/holy-name/</link><dc:creator>Rill</dc:creator><description>&lt;div&gt;&lt;p&gt;I read this webpage today. &lt;a class="reference external" href="http://lectionarypage.net/YearABC_RCL/Christmas/HolyName_RCL.html"&gt;Holy
 Name&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Without a doubt, the hearer of these texts are to concentrate on the
 name of Jesus and of all the ways we might engage God's name. But being
@@ -550,123 +569,4 @@ Here is what I now have:&lt;/p&gt;
 boost. I would have to go past everything I've already done.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>https://rillonline.github.io/blog/posts/2019/09/using-checkboxes/</guid><pubDate>Mon, 02 Sep 2019 05:00:00 GMT</pubDate></item><item><title>Recurring Tasks in Orgmode</title><link>https://rillonline.github.io/blog/posts/2019/08/recurring-tasks-in-orgmode/</link><dc:creator>Rill</dc:creator><description>&lt;div&gt;&lt;p&gt;Edited on 2019/09/01 to correct an error with tasks that needed to be
-re-scheduled differently in the future.&lt;/p&gt;
-&lt;div class="section" id="introduction"&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;I have been keeping a list of to-dos in a file called "organizer.org".
-(I'm not sure if it actually keeps me organized, but I like the idea
-of having a list of tasks, especially tasks I might forget about.) At
-the top level I have three headlines:&lt;/p&gt;
-&lt;ol class="arabic simple"&gt;
-&lt;li&gt;&lt;p&gt;Tasks. These are the one off sorts of tasks that it would be
-labor-intensive to categorize.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Website. This is where I put items related to maintaining my
-website (where you are most likely reading this article) and ideas
-for writing new articles.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Writing. Separate from writing for my website, I list longer pieces
-here both fiction and non-fiction.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;My "init.el" file for Emacs has a line in it to display my weekly
-agenda view.&lt;/p&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 23)&lt;/p&gt;
-&lt;p&gt;Cannot find pygments lexer for language "example"&lt;/p&gt;
-&lt;pre class="literal-block"&gt;.. code:: example
-
-   (setq initial-buffer-choice 'org-agenda-list)
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;This agenda view shows my diary for the week as well as any tasks with
-either a scheduled start date or end date, i.e., deadline.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="writing-a-good-to-do"&gt;
-&lt;h2&gt;Writing a Good To-do&lt;/h2&gt;
-&lt;p&gt;A basic rule of thumb is to write a to-do that you can actually get
-done. It has to be specific enough so that you know when you've
-started it and when you can check it off your list, that is, mark it
-done. I had this to-do which is more an aspiration than a to-do.&lt;/p&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 38)&lt;/p&gt;
-&lt;p&gt;Cannot find pygments lexer for language "example"&lt;/p&gt;
-&lt;pre class="literal-block"&gt;.. code:: example
-
-   ** TODO Publish at least one blog post weekly to keep website fresh
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;The intent is clear enough: one blog post to be completed every
-week.&lt;/p&gt;
-&lt;p&gt;My mother kept a calendar on the kitchen wall. She was fussy about it.
-She wanted big blank blocks in which to write. She wrote everything
-down. She had codes for each of us. She often would say the item and
-the person's initials as she wrote.&lt;/p&gt;
-&lt;p&gt;In my mother's calendar world, the blog post could be written in and
-even X'ed out when done and then been re-written on the next line of
-blocks for the month. She may have even just drawn a straight line
-through every Tuesday.&lt;/p&gt;
-&lt;p&gt;I have several good to-dos already in my organizer file:&lt;/p&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 57)&lt;/p&gt;
-&lt;p&gt;Cannot find pygments lexer for language "example"&lt;/p&gt;
-&lt;pre class="literal-block"&gt;.. code:: example
-
-   ** TODO Pay rent
-      DEADLINE: &amp;lt;2019-09-01 Sun +1m&amp;gt;
-   ** TODO Give Nick his heart worm pill
-      DEADLINE: &amp;lt;2019-09-13 Fri +1m&amp;gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;These tasks can be marked as done. Org will advance the date
-by one month and they will again appear in my weekly agenda view. The
-day of the week will change, but not the day of the month.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="an-interim-solution"&gt;
-&lt;h2&gt;An Interim Solution&lt;/h2&gt;
-&lt;p&gt;I started marking my website refresh to-do as done when I wrote and
-posted a new article. After marking it done and recording the name of
-the article in the comments, I marked the to-do as "TODO" to start the
-process all over again. This seems quite unappealing to me.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="a-better-solution"&gt;
-&lt;h2&gt;A Better Solution&lt;/h2&gt;
-&lt;p&gt;In reading through
-&lt;a class="reference external" href="https://orgmode.org/manual/Repeated-tasks.html"&gt;Repeated Tasks&lt;/a&gt; I realized that my article writing to-do is not like
-paying rent or giving Nick his pill. If I do not write a blog article
-on a given week, I don't need to catch up. I can pick up at any time
-and start posting on a regular basis. It is clear looking through my
-archives and at other people's blogs this is what happens all the
-time. I am writing these articles because I want to write them. I
-don't need to write them. I enjoy posting and then marking my success
-by calling this to-do done. In the days of paper and pen, people
-enjoyed drawing a line through an item on a list. (Never using this
-medium, I was always jealous of their satisfaction. People wrote
-noisily and with a flourish.)&lt;/p&gt;
-&lt;p&gt;I now find out Org has a solution for my task.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="my-new-to-do"&gt;
-&lt;h2&gt;My New To-do&lt;/h2&gt;
-&lt;p&gt;Here is what I came up with for my article writing to-do.&lt;/p&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 99)&lt;/p&gt;
-&lt;p&gt;Cannot find pygments lexer for language "example"&lt;/p&gt;
-&lt;pre class="literal-block"&gt;.. code:: example
-
-   ** TODO Publish at least one blog post weekly to keep website fresh
-      DEADLINE: &amp;lt;2019-08-27 Tue .+3d&amp;gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;This suggests I have a 3 day deadline for writing a weekly article.
-No, I haven't lost my mind. If I am writing regularly, I will write
-more than one blog post a week and I want to honor that, but my
-general goal is to be sure I write at least one post every week.&lt;/p&gt;
-&lt;p&gt;When I mark this task as done, three days will be added to the deadline. If the
-deadline is in the past, another three days will be added until the deadline
-is in the future. In this way, the three-day deadline may also move
-throughout the week. For example, if I complete this task today,
-Tuesday, it will have a deadline of Friday. If I don't complete
-it until Monday, it will then have a deadline of the following
-Thursday, almost two weeks after its original deadline.&lt;/p&gt;
-&lt;p&gt;If you want this task to always be due on a Tuesday,for example, use
-"++"(plus plus) instead
-of ".+" (dot plus.)&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>https://rillonline.github.io/blog/posts/2019/08/recurring-tasks-in-orgmode/</guid><pubDate>Wed, 28 Aug 2019 05:00:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><guid>https://rillonline.github.io/blog/posts/2019/09/using-checkboxes/</guid><pubDate>Mon, 02 Sep 2019 05:00:00 GMT</pubDate></item></channel></rss>
