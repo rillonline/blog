@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://rillonline.github.io/blog/</loc>
-  <lastmod>2021-08-02T20:09:00Z</lastmod>
+  <lastmod>2021-08-03T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/blog/2005/</loc>
@@ -31,7 +31,7 @@
  </url>
  <url>
   <loc>https://rillonline.github.io/blog/archive.html</loc>
-  <lastmod>2021-08-02T20:09:00Z</lastmod>
+  <lastmod>2021-08-03T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/blog/categories/</loc>
@@ -59,7 +59,11 @@
  </url>
  <url>
   <loc>https://rillonline.github.io/blog/index-4.html</loc>
-  <lastmod>2021-08-02T20:09:00Z</lastmod>
+  <lastmod>2021-08-03T02:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/blog/index-5.html</loc>
+  <lastmod>2021-08-03T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/blog/listings/</loc>
@@ -264,6 +268,10 @@
  <url>
   <loc>https://rillonline.github.io/blog/posts/2020/01/january-1/</loc>
   <lastmod>2021-08-01T22:31:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/blog/posts/my-blog/</loc>
+  <lastmod>2021-08-03T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/blog/posts/my-writing-is-in-disarray/</loc>
