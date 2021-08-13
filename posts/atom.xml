@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>rillonline.github.io/blog/</id>
+  <title>What Happened Today?</title>
+  <updated>2021-08-13T14:24:22.785742+00:00</updated>
+  <link href="rillonline.github.io/blog/"/>
+  <link href="rillonline.github.io/blog/posts/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
+  <entry>
+    <id>rillonline.github.io/blog/posts/my-writing-is-in-disarray/</id>
+    <title>My Writing is in Disarray</title>
+    <updated>2021-08-02T00:00:00-05:00</updated>
+    <content type="html">&lt;div class="section" id="my-writing-is-in-disarray"&gt;
+
+&lt;p&gt;In some ways, the title says it all.&lt;/p&gt;
+&lt;p&gt;I have started writing again and the question I asked myself is where I
+wanted to put what I wrote. I have a love/hate relationship with my
+&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;WordPress&lt;/span&gt;&lt;/code&gt;_ blog. It is difficult to post there and I always want to
+keep a copy locally.&lt;/p&gt;
+&lt;p&gt;My best bet is my &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;github&lt;/span&gt;&lt;/code&gt;&lt;em&gt;, but it would not build under my new
+installation of &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;Nikola&lt;/span&gt;&lt;/code&gt;&lt;/em&gt;. It looks like I will have to edit every last
+post (because struggling with the &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;conf.py&lt;/span&gt;&lt;/code&gt; is more than I can handle
+at the moment.) Revisiting old posts is not a bad thing anyway.&lt;/p&gt;
+&lt;p&gt;I have also started to revisit my Star Runner novels. I thought I would
+collect them all in one place along with my blog posts. You see, there
+is really method in my madness. Oh dear! I think there is one missing. I
+can’t even think of its name. I was not super impressed with it, but it
+did tell a story. I can probably recreate it if necessary.&lt;/p&gt;
+&lt;p&gt;Several backup hard drives have crashed. Perhaps it was there. I have
+also discovered I have many copies of the same file and everything needs
+to be brought together in one place and cleaned up.&lt;/p&gt;
+&lt;p&gt;I’m working in Linux on my ChromeBook which I really enjoy. I’m learning
+a lot about Emacs, too, and that’s fun.&lt;/p&gt;
+&lt;p&gt;So as Babylon V says, “So it begins …”&lt;/p&gt;
+&lt;p&gt;.. _WordPress: https://rill.blog/
+.. _github: rillonline.github.io/blog
+.. _Nikola: https://getnikola.com/&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="rillonline.github.io/blog/posts/my-writing-is-in-disarray/" rel="alternate"/>
+    <summary>In some ways, the title says it all.</summary>
+    <published>2021-08-02T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>rillonline.github.io/blog/posts/great-day/</id>
+    <title>Great Day</title>
+    <updated>2021-08-10T00:00:00-05:00</updated>
+    <content type="html">&lt;div class="section" id="great-day"&gt;
+
+&lt;p&gt;Today is a great day for Nick and me.&lt;/p&gt;
+&lt;p&gt;First of all, we have been together for five years now. Our
+anniversary was a few days ago, but I’m writing about it now.&lt;/p&gt;
+&lt;p&gt;Nick and I had a rocky start, but we have been loyal to one another
+through it all.&lt;/p&gt;
+&lt;p&gt;Today is an especially wonderful day because we finally got out on a
+walk together. For the past two weeks or so I have struggled with
+unhealthy air quality and high levels of grass pollen. Today air
+quality was in the good range and the pollen counts were low for grass,
+tree and ragweed. So off we went for our usual daily walk.&lt;/p&gt;
+&lt;p&gt;I had no difficulty breathing and could keep up with Nick’s pace which
+was neither slow nor fast. Nick behaved well, at least for Nick on a
+walk, and that was great, too.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="rillonline.github.io/blog/posts/great-day/" rel="alternate"/>
+    <summary>Today is a great day for Nick and me.</summary>
+    <published>2021-08-10T00:00:00-05:00</published>
+  </entry>
+</feed>

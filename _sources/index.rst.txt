@@ -1,0 +1,46 @@
+
+.. blog index file, created by `ablog start` on Thu Aug 12 15:29:15 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+Hey there 👋
+=========
+
+A little bit about me:
+
+
+  * I am a seeker of knowledge
+
+  * a pilgrim on the way,
+
+  * a [Seeing Eye](https://seeingeye.org/) dog partner,
+
+  * a writer,
+
+  * a a user of accessible software  
+
+  * an avid reader and podcast listener
+
+What Happened Today?
+====================
+
+
+
+
+
+.. postlist:: 5
+
+
+
+.. `toctree` directive, below, contains list of non-post `.rst` files.
+   This is how they appear in Navigation sidebar. Note that directive
+   also contains `:hidden:` option so that it is not included inside the page.
+
+   Posts are excluded from this directive so that they aren't double listed
+   in the sidebar both under Navigation and Recent Posts.
+
+.. toctree::
+   :hidden:
+
+   about.rst
+
+

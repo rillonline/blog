@@ -1,0 +1,34 @@
+# Hey there 👋 #
+
+*A little bit about me:*
+
+
+  * I am a seeker of knowledge
+
+  * a pilgrim on the way,
+
+  * a [Seeing Eye](https://seeingeye.org/) dog partner,
+
+  * a writer,
+
+  * a user of accessible software  
+
+  * an avid reader and podcast listener
+
+# What Happened Before Today #
+
+```{postlist}
+:date:"%B %d, %Y"
+:format: {title} on {date}
+   :list-style: circle
+```
+
+```{toctree}
+:maxdepth: 2
+[Writing](https://rillonline.github.io/writing/)
+[The Adventures of Star Runner the Pantheran](https://rillonline.github.io/StarRunnerAdventures/)
+:hidden:
+posts
+```
+
+
